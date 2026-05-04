@@ -1,0 +1,37 @@
+{
+  "data_scientist": {
+    "description": "Analyze data and build machine learning models to extract insights",
+    "keywords": ["data", "machine learning", "ml", "ai", "analytics", "statistics", "scientist", "analysis"],
+    "skills": ["Python", "Statistics", "Pandas", "NumPy", "Scikit-learn", "Data Visualization", "SQL", "Machine Learning", "Feature Engineering", "Model Evaluation"]
+  },
+  "web_developer": {
+    "description": "Build and maintain websites and web applications",
+    "keywords": ["web", "website", "frontend", "backend", "fullstack", "developer", "html", "css", "javascript"],
+    "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "REST APIs", "Git", "Databases", "Responsive Design", "Testing"]
+  },
+  "nlp_engineer": {
+    "description": "Build natural language processing and text understanding systems",
+    "keywords": ["nlp", "natural language", "text", "language", "chatbot", "speech", "linguistics", "nlp engineer"],
+    "skills": ["Python", "spaCy", "NLTK", "TF-IDF", "Text Classification", "Word Embeddings", "Transformers", "Regex", "Sentiment Analysis", "Named Entity Recognition"]
+  },
+  "cybersecurity_analyst": {
+    "description": "Protect systems, networks and data from digital threats",
+    "keywords": ["security", "cyber", "hacking", "ethical", "network", "penetration", "analyst", "threat", "vulnerability"],
+    "skills": ["Networking", "Linux", "Python", "Cryptography", "Ethical Hacking", "Firewalls", "SIEM Tools", "Risk Assessment", "Incident Response", "Penetration Testing"]
+  },
+  "mobile_developer": {
+    "description": "Design and build mobile applications for iOS and Android",
+    "keywords": ["mobile", "android", "ios", "app", "flutter", "react native", "smartphone", "application"],
+    "skills": ["Flutter", "Dart", "React Native", "REST APIs", "UI Design", "Firebase", "Git", "State Management", "App Testing", "Publishing"]
+  },
+  "devops_engineer": {
+    "description": "Automate, manage and optimize software delivery pipelines",
+    "keywords": ["devops", "cloud", "deployment", "ci/cd", "infrastructure", "docker", "kubernetes", "automation"],
+    "skills": ["Linux", "Docker", "Kubernetes", "CI/CD", "AWS/GCP/Azure", "Python Scripting", "Git", "Terraform", "Monitoring", "Bash"]
+  },
+  "data_engineer": {
+    "description": "Build pipelines and infrastructure for large-scale data processing",
+    "keywords": ["data engineering", "pipeline", "etl", "big data", "spark", "warehouse", "hadoop", "kafka"],
+    "skills": ["Python", "SQL", "Apache Spark", "Kafka", "Airflow", "Data Warehousing", "ETL Pipelines", "Cloud Storage", "Docker", "Scala Basics"]
+  }
+}

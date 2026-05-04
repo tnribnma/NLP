@@ -1,0 +1,58 @@
+topic,resource_name,type,url,difficulty
+Python,Python Official Docs,documentation,https://docs.python.org,beginner
+Python,Automate the Boring Stuff,book,https://automatetheboringstuff.com,beginner
+Python,Real Python Tutorials,website,https://realpython.com,intermediate
+Pandas,Pandas Documentation,documentation,https://pandas.pydata.org/docs,intermediate
+Pandas,Kaggle Pandas Course,course,https://kaggle.com/learn/pandas,beginner
+NumPy,NumPy Official Docs,documentation,https://numpy.org/doc,intermediate
+Statistics,StatQuest YouTube,video,https://youtube.com/c/joshstarmer,beginner
+Statistics,Khan Academy Statistics,course,https://khanacademy.org/math/statistics-probability,beginner
+Machine Learning,Hands-On ML by Géron,book,https://oreilly.com/library/view/hands-on-machine-learning,intermediate
+Machine Learning,Kaggle ML Course,course,https://kaggle.com/learn/intro-to-machine-learning,beginner
+Scikit-learn,Scikit-learn Docs,documentation,https://scikit-learn.org/stable,intermediate
+Data Visualization,Matplotlib Docs,documentation,https://matplotlib.org/stable/contents.html,beginner
+Data Visualization,Seaborn Tutorial,documentation,https://seaborn.pydata.org/tutorial.html,beginner
+SQL Databases,SQLZoo,website,https://sqlzoo.net,beginner
+SQL Databases,Mode SQL Tutorial,course,https://mode.com/sql-tutorial,intermediate
+HTML,MDN Web Docs HTML,documentation,https://developer.mozilla.org/en-US/docs/Web/HTML,beginner
+CSS,MDN Web Docs CSS,documentation,https://developer.mozilla.org/en-US/docs/Web/CSS,beginner
+CSS,CSS Tricks,website,https://css-tricks.com,intermediate
+JavaScript,JavaScript.info,website,https://javascript.info,intermediate
+JavaScript,Eloquent JavaScript,book,https://eloquentjavascript.net,intermediate
+React,React Official Docs,documentation,https://react.dev,intermediate
+React,Full Stack Open,course,https://fullstackopen.com,intermediate
+Node.js,Node.js Docs,documentation,https://nodejs.org/en/docs,intermediate
+REST APIs,REST API Tutorial,website,https://restfulapi.net,beginner
+Git,Pro Git Book,book,https://git-scm.com/book/en/v2,beginner
+Git,GitHub Learning Lab,course,https://lab.github.com,beginner
+spaCy,spaCy Official Course,course,https://course.spacy.io,intermediate
+spaCy,spaCy Documentation,documentation,https://spacy.io/usage,intermediate
+NLTK,NLTK Book,book,https://nltk.org/book,intermediate
+TF-IDF,Scikit-learn Text Feature Extraction,documentation,https://scikit-learn.org/stable/modules/feature_extraction.html,intermediate
+Text Classification,Kaggle NLP Course,course,https://kaggle.com/learn/natural-language-processing,intermediate
+Word Embeddings,Gensim Docs,documentation,https://radimrehurek.com/gensim,intermediate
+Transformers,HuggingFace Course,course,https://huggingface.co/course,advanced
+Sentiment Analysis,Towards Data Science NLP,website,https://towardsdatascience.com/tagged/nlp,intermediate
+Networking,CompTIA Network+ Guide,book,https://comptia.org/certifications/network,intermediate
+Networking,Professor Messer N+,video,https://professormesser.com/network-plus/n10-008,beginner
+Linux,Linux Journey,website,https://linuxjourney.com,beginner
+Linux,The Linux Command Line,book,https://linuxcommand.org/tlcl.php,beginner
+Cryptography,Crypto101,book,https://crypto101.io,intermediate
+Ethical Hacking,TryHackMe,platform,https://tryhackme.com,beginner
+Penetration Testing,HackTheBox,platform,https://hackthebox.com,intermediate
+Flutter,Flutter Official Docs,documentation,https://flutter.dev/docs,intermediate
+Flutter,Flutter YouTube Channel,video,https://youtube.com/c/flutterdev,beginner
+Dart,Dart Language Tour,documentation,https://dart.dev/guides/language/language-tour,beginner
+Firebase,Firebase Docs,documentation,https://firebase.google.com/docs,intermediate
+UI Design,Material Design Guidelines,documentation,https://material.io/design,beginner
+Docker,Docker Official Docs,documentation,https://docs.docker.com,intermediate
+Docker,Play with Docker,platform,https://labs.play-with-docker.com,beginner
+Kubernetes,Kubernetes Docs,documentation,https://kubernetes.io/docs/home,advanced
+CI/CD,GitHub Actions Docs,documentation,https://docs.github.com/en/actions,intermediate
+Apache Spark,Spark by Examples,website,https://sparkbyexamples.com,intermediate
+Airflow,Apache Airflow Docs,documentation,https://airflow.apache.org/docs,intermediate
+Feature Engineering,Feature Engineering for ML,book,https://oreilly.com/library/view/feature-engineering-for,intermediate
+Model Evaluation,Scikit-learn Model Evaluation,documentation,https://scikit-learn.org/stable/modules/model_evaluation.html,intermediate
+Regex,Regex101,website,https://regex101.com,beginner
+Bash,Bash Guide,website,https://mywiki.wooledge.org/BashGuide,beginner
+Terraform,Terraform Docs,documentation,https://developer.hashicorp.com/terraform/docs,intermediate

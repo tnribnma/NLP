@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "career": "nlp_engineer",
+    "career_display": "Nlp Engineer",
+    "description": "Build natural language processing and text understanding systems",
+    "total_weeks": 8,
+    "total_skills": 10,
+    "skipped_skills": [],
+    "generated_at": "2026-05-01 21:39"
+  },
+  "weekly_plan": [
+    {
+      "week": 1,
+      "tier": "foundation",
+      "theme": "Building Foundations",
+      "skills": [
+        "Python",
+        "Regex"
+      ],
+      "skill_count": 2,
+      "daily_breakdown": [
+        "Day 1-2: Python \u2014 theory & practice",
+        "Day 3-4: Regex \u2014 theory & practice",
+        "Day 5: Review all skills + mini project"
+      ],
+      "goal": "Complete foundational understanding of: Python, Regex"
+    },
+    {
+      "week": 2,
+      "tier": "core",
+      "theme": "Core Skill Development",
+      "skills": [
+        "spaCy",
+        "NLTK"
+      ],
+      "skill_count": 2,
+      "daily_breakdown": [
+        "Day 1-2: spaCy \u2014 theory & practice",
+        "Day 3-4: NLTK \u2014 theory & practice",
+        "Day 5: Review all skills + mini project"
+      ],
+      "goal": "Complete foundational understanding of: spaCy, NLTK"
+    },
+    {
+      "week": 3,
+      "tier": "core",
+      "theme": "Core Skill Development",
+      "skills": [
+        "TF-IDF",
+        "Text Classification"
+      ],
+      "skill_count": 2,
+      "daily_breakdown": [
+        "Day 1-2: TF-IDF \u2014 theory & practice",
+        "Day 3-4: Text Classification \u2014 theory & practice",
+        "Day 5: Review all skills + mini project"
+      ],
+      "goal": "Complete foundational understanding of: TF-IDF, Text Classification"
+    },
+    {
+      "week": 4,
+      "tier": "core",
+      "theme": "Core Skill Development",
+      "skills": [
+        "Word Embeddings",
+        "Sentiment Analysis"
+      ],
+      "skill_count": 2,
+      "daily_breakdown": [
+        "Day 1-2: Word Embeddings \u2014 theory & practice",
+        "Day 3-4: Sentiment Analysis \u2014 theory & practice",
+        "Day 5: Review all skills + mini project"
+      ],
+      "goal": "Complete foundational understanding of: Word Embeddings, Sentiment Analysis"
+    },
+    {
+      "week": 5,
+      "tier": "core",
+      "theme": "Deepening Knowledge",
+      "skills": [
+        "Named Entity Recognition",
+        "Transformers"
+      ],
+      "skill_count": 2,
+      "daily_breakdown": [
+        "Day 1-2: Named Entity Recognition \u2014 theory & practice",
+        "Day 3-4: Transformers \u2014 theory & practice",
+        "Day 5: Review all skills + mini project"
+      ],
+      "goal": "Complete foundational understanding of: Named Entity Recognition, Transformers"
+    }
+  ],
+  "summary": {
+    "foundation_weeks": 1,
+    "core_weeks": 4,
+    "advanced_weeks": 0,
+    "skills_per_week": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  }
+}
