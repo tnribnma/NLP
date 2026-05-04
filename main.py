@@ -38,18 +38,27 @@ st.divider()
 
 with st.sidebar:
     st.header("Settings")
-    weeks = st.select_slider("Roadmap Duration (weeks)", options=[4, 8, 12], value=8)
-    top_n = st.slider("Top career matches", 1, 5, 3)
+    weeks = int(st.select_slider("Roadmap Duration (weeks)", options=[4, 8, 12], value=8))
+    top_n = int(st.slider("Top career matches", 1, 5, 3))
 
     st.divider()
-    st.markdown("Skill Gap Mode")
+    st.markdown("**Skill Gap Mode**")
     known_input = st.text_area(
         "Skills you already know (comma-separated)",
         placeholder="e.g. Python, SQL, Git",
         height=80
     )
-    known_skills = [s.strip() for s in known_input.split(",") if s.strip()] if known_input else []
+    known_skills = [s.strip().lower() for s in known_input.split(",") if s.strip()] if known_input else []
     st.caption(f"{len(known_skills)} skill(s) entered")
+
+    st.divider()
+    st.markdown("**Active Settings**")
+    st.info(
+        f"Duration: **{weeks} weeks**\n\n"
+        f"Top matches: **{top_n}**\n\n"
+        f"Known skills: **{len(known_skills)}** "
+        + (f"({', '.join(known_skills[:3])}{'...' if len(known_skills) > 3 else ''})" if known_skills else "(none)")
+    )
 
 user_text = st.text_area(
     "Describe your interests, background, and goals",
@@ -109,6 +118,15 @@ if run_btn:
         career_data = json.load(f)
 
     st.success(f"Best match: {top_career.replace('_', ' ').title()}")
+
+    # Confirm sidebar settings are active
+    col_a, col_b, col_c = st.columns(3)
+    col_a.metric("Roadmap Duration", f"{weeks} weeks")
+    col_b.metric("Top Matches Shown", top_n)
+    col_c.metric("Known Skills Skipped", len(roadmap["meta"]["skipped_skills"]))
+    if roadmap["meta"]["skipped_skills"]:
+        st.caption(f"Skipped: {', '.join(roadmap['meta']['skipped_skills'])}")
+
     st.divider()
 
     tab1, tab2, tab3, tab4 = st.tabs(["Matches", "Roadmap", "Visualizations", "Resources"])

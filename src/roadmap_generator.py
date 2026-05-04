@@ -73,13 +73,11 @@ def generate_roadmap(
     remaining_skills = []
 
     for skill in all_skills:
-        if skill.lower() in known_lower:
+        if skill.strip().lower() in known_lower:
             skipped_skills.append(skill)
         else:
             remaining_skills.append(skill)
 
-    '''if not remaining_skills:
-        remaining_skills = all_skills  '''
     try:
         schedule = _distribute_skills_to_weeks(remaining_skills, total_weeks)
     except Exception as e:
